@@ -1,0 +1,18 @@
+Bom, espero que esteja Tudo bem do seu lado, aqui Arsénio Soto, desenvolve esta Api Rest, com o intuito de participar da candidatura ou seja, da vaga em questão.
+
+Primeiramente, crie o projeto usando o freamwork Spring, fiz a importação das dependências, com a dependência de Mysql para trabalhar e fazer a conexão com a base de dados, a dependência de DevTools para fazer o deploy em tempo real, a dependência de teste para poder realizar os testes e gerar o build do projeto, a dependência de beanValidation para fazer as validações de valores nulos e ou inválidos, a dependência do FlayWayDb para poder gerar as nossas tabelas no banco de dados,
+A a biblioteca JPA;
+
+Feito isso crie os arquivos de migrações, no camingo Src/main/resource, Pasta db/migration e la onde estão os arquivos de migração;
+
+Depois desse passo crie as entidades para poder trabalhar com as validações assim também como as colunas e, ou seja, trabalhar com as nossa tabelas em geral;
+
+Depois desse passo crie os Repositórios, responsáveis por trabalhar com as nossas tabelas (as Classes de Modelo) e as nossas classes de negócio, e também dizer que os nossos repositórios estendem para uma classe JpaRepositorio onde contem vários métodos, como salvar, findAll e entre outros usados na Api;
+Crie também os nossos controladores os famosos Resource, onde contem vários métodos para a nossa Api e também são feitas as requisições, juntamente com as classes de serviços onde são responsáveis por armazenar a logica da nossa aplicação, ou seja, as classes de negócio;
+
+Implementei as classes responsáveis por fazer o tratamento de exceções, para nos devolver mensagens mais explicita tanto para o desenvolvedor e o usuário, juntamente foram criados os arquivos para armazenar as mensagens e as validações;
+Foram implementados os eventos responsáveis por fazer a captura de algumas, requisições feitas no PostMan, ou seja quando e feito algo ele captura para nos.
+
+Feito tudo isso, a nossa Api foi Testa no postMan, conforme o exercício pediu e foram implementados todos os pedidos feitos pelo exercício com sucesso sem nenhum problema;
+
+Afirmo e posso dizer que a minha Api esta 100% funcional sem qualquer eventualidade ou problemas, muito obrigado e comprimentos.
