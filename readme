@@ -1,6 +1,6 @@
 Bom, espero que esteja Tudo bem do seu lado, aqui Arsénio Soto, desenvolve esta Api Rest, com o intuito de participar da candidatura ou seja, da vaga em questão.
 
-Primeiramente, crie o projeto usando o freamwork Spring, fiz a importação das dependências, com a dependência de Mysql para trabalhar e fazer a conexão com a base de dados, a dependência de DevTools para fazer o deploy em tempo real, a dependência de teste para poder realizar os testes e gerar o build do projeto, a dependência de beanValidation para fazer as validações de valores nulos e ou inválidos, a dependência do FlayWayDb para poder gerar as nossas tabelas no banco de dados,
+Primeiramente, crie o projeto usando o freamwork Spring, fiz a importação das dependências, como a dependência de Mysql para trabalhar e fazer a conexão com a base de dados, a dependência de DevTools para fazer o deploy em tempo real, a dependência de teste para poder realizar os testes e gerar o build do projeto, a dependência de beanValidation para fazer as validações de valores nulos e ou inválidos, a dependência do FlayWayDb para poder gerar as nossas tabelas no banco de dados,
 A a biblioteca JPA;
 
 Feito isso crie os arquivos de migrações, no camingo Src/main/resource, Pasta db/migration e la onde estão os arquivos de migração;
